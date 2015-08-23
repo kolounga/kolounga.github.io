@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io
 
+### INTELLIJ ###
+
+.idea
+
 ### OSX ###
 .DS_Store
 .AppleDouble
