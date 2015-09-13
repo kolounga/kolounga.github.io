@@ -4,6 +4,9 @@
 
 .idea
 
+### NODE ###
+node_modules
+
 ### OSX ###
 .DS_Store
 .AppleDouble
