@@ -1,39 +1,21 @@
-# Created by https://www.gitignore.io
-
-### INTELLIJ ###
-
+### Idea ###
 .idea
 
-### NODE ###
-node_modules
+### SublimeText ###
+*.sublime-workspace
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
+# Files that might appear on external disk
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
 
 ### Windows ###
 # Windows image file caches
@@ -46,12 +28,9 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# App specific
 
-# Windows shortcuts
-*.lnk
-
+node_modules/
+.tmp
+dist
+/src/main.js
