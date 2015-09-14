@@ -1,7 +1,29 @@
+@import "colors";
+
+$font:        Arial;
+$font-header: Futura;
+
 /* Stiziles */
 
 html, body {
-  background: #222222;
+  font-family: $font;
+  color: $color-text;
+  background: $color-background;
+}
+
+h1 {
+  font-family: $font-header;
+  color: $color-h1;
+}
+
+h2 {
+  font-family: $font-header;
+  color: $color-h2;
+}
+
+h3 {
+  font-family: $font-header;
+  color: $color-h3;
 }
 
 /* main */
@@ -9,15 +31,15 @@ html, body {
 .main {
   width: 100%;
   height: 100%;
-  background: #222222;
+  background: $color-background;
   color: #fff;
 
-img {
+  img {
   width: 103px;
   height: 89px;
   margin-bottom: 10px;
   text-align: center;
-}
+  }
 }
 
 /* transitions */
