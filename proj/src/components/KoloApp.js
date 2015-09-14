@@ -7,7 +7,7 @@ var ReactTransitionGroup = React.addons.TransitionGroup;
 require('normalize.css');
 require('../styles/main.css');
 
-var imageURL = require('../images/yeoman.png');
+var imageURL = require('../images/kolologo.svg');
 
 var KoloApp = React.createClass({
   render: function() {
