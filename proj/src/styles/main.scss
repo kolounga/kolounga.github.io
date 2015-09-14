@@ -11,13 +11,13 @@ html, body {
   height: 100%;
   background: #222222;
   color: #fff;
-}
 
-.main img {
+img {
   width: 103px;
   height: 89px;
   margin-bottom: 10px;
   text-align: center;
+}
 }
 
 /* transitions */
@@ -25,17 +25,15 @@ html, body {
 .fade-enter {
   opacity: 0.01;
   transition: opacity .5s ease-in;
-}
 
-.fade-enter.fade-enter-active {
-  opacity: 1;
+&.fade-enter-active {
+  opacity: 1; }
 }
 
 .fade-leave {
   opacity: 1;
   transition: opacity .5s ease-in;
-}
 
-.fade-leave.fade-leave-active {
-  opacity: 0.01;
+&.fade-leave-active {
+  opacity: 0.01; }
 }

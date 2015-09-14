@@ -5,7 +5,8 @@ var ReactTransitionGroup = React.addons.TransitionGroup;
 
 // CSS
 require('normalize.css');
-require('../styles/main.css');
+require('../styles/main.scss');
+require('../styles/colors.scss');
 
 var imageURL = require('../images/kolologo.svg');
 

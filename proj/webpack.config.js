@@ -45,13 +45,13 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'react-hot!babel-loader'
     }, {
-      test: /\.sass/,
-      loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded&indentedSyntax'
+      test: /\.scss$/,
+      loader: 'style!css!sass'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader'
     }, {
-      test: /\.(png|jpg|woff|woff2)$/,
+      test: /\.(woff|woff2)$/,
       loader: 'url-loader?limit=8192'
     },
       {
