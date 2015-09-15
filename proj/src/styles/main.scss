@@ -49,9 +49,12 @@ h3 {
   background: #2c3539;
   h1 {
     position:relative;
+    font-size: 50px;
+    margin-top: 20px;
+    top: 0;
     left: 90px;
     font-family: $font-header;
-    color: $color-h1;
+    color: $color-h3;
   }
 }
 
