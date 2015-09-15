@@ -25,7 +25,7 @@ const KoloLogo = React.createClass({
     return (
       <Spring defaultValue={{val: 0}} endValue={{val: this.state.open ? 100 : 0}}>
         { i => {
-          var scale = 15;
+          var scale = 9;
           var barRatio = 6.9;
           var barSepRatio = 1.7;
           var barSep = scale * barSepRatio;
